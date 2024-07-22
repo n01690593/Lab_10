@@ -1,0 +1,31 @@
+/* custom.css */
+body {
+    background-image: url('assets/background.gif'); /* Update the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; /* Optional: Adjust text color for better contrast */
+}
+
+.navbar {
+    background-color: rgba(0, 123, 255, 0.8) !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.jumbotron {
+    background-color: rgba(233, 236, 239, 0.8);
+    color: #343a40;
+}
+
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+footer {
+    background-color: rgba(233, 236, 239, 0.8);
+    padding: 1rem 0;
+}
